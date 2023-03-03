@@ -1,0 +1,190 @@
+.container-config {
+    height: auto;
+    width: 100%;
+    background-color: #093366;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 2;
+    left: 0;
+    padding: 2px;
+    flex-direction: column;
+    gap: 30px;
+
+    transition: 0.6s;
+    opacity: 0;
+    animation-name: animaconfigs;
+    animation-fill-mode: forwards;
+    animation-duration: 0.5s;
+    transform: translateX(50%);
+}
+@keyframes animaconfigs {
+    to {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+}
+.configquesomos {
+    background-color: pink;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+
+}
+.container-config .div-footer {
+
+    height: 32rem;
+    width: 100%;
+    position: relative;
+}
+.wrapper-config {
+    height: 20rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(249, 213, 8);
+
+}
+.wrapper-config h2 {
+    font-family: 'Inter',sans-serif;
+    font-weight: 800;
+    font-size: 2.75rem;
+    line-height: 1.2;
+    letter-spacing: -.019em;
+    color: #093366;
+    border-bottom: 2px solid  #093366;
+}
+.wrapper-config-text {
+    height: 75%;
+    width: 100%;
+    background-color: #307ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-img {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 80rem;
+    width: 100%;
+    background-image: url(../images/img__home--countries.png);
+    background-size: cover;
+}
+.inside-blog {
+    background-color: pink;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    border-radius: 20px 20px 0 0px;
+    background-color: #fff;
+    border-bottom: 2px solid  #093366;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.inside-blog h2 {
+    font-family: 'Inter',sans-serif;
+    font-weight: 800;
+    font-size: 2.75rem;
+    line-height: 1.2;
+    letter-spacing: -.019em;
+    color: rgb(249, 213, 8);
+    
+}
+
+.wrapper-config-text-p {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    background-color: rgb(249, 213, 8);
+    height: 35rem;
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 800;
+}
+@media screen and (max-width: 900px){
+    .container-config {
+        height: auto;
+        width: 100%;
+        background-color: rgb(2, 25, 40);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 5px;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .configquesomos {
+        background-color: rgb(2, 25, 40);
+        height: 100rem;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+       justify-content: center;
+    
+    }
+
+    .wrapper-config-text-p {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: black;
+        background-color: rgb(249, 213, 8);
+        height: 55rem;
+        width: 100%;
+        padding: 20px;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .container-config .div-footer {
+   
+        height: 59rem;
+        width: 100%;
+    }
+    .blog-img {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        height: 90rem;
+        width: 100%;
+        background-image: url(../images/img__home--countries.png);
+        background-size: cover;
+    }
+    .inside-blog {
+        /* background-color: pink; */
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 5rem;
+        border-radius: 20px 20px 0 0px;
+        /* background-color: #fff; */
+        border-bottom: 2px solid  #093366;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+    .inside-blog h2 {
+        font-family: 'Inter',sans-serif;
+        font-weight: 800;
+        font-size: 15pt;
+        line-height: 1.2;
+        letter-spacing: -.019em;
+        color: rgb(249, 213, 8);
+        
+    }
+}

@@ -1,0 +1,108 @@
+form {
+    background-color: rgb(174, 146, 6);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    transition: 0.5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+form .div-container-login {
+    background-color: rgb(219, 184, 12);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+    gap: 30px;
+    padding: 20px;
+
+}
+form .container-login-inpute {
+    /* background-color: rgb(26, 74, 117); */
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: 0.5s;
+    border-radius: 10px;
+  
+}
+.container-login-inpute-box {
+ 
+    height: 95px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.container-login-inpute-box p {
+    color: red;
+}
+.container-login-inpute-box input{
+    background-color: aliceblue;
+    height: 50px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+    text-decoration: none;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+form .container-login-inpute input{
+    background-color: aliceblue;
+    height: 50px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+    text-decoration: none;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.container-login-button {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+
+   
+    
+}
+.container-login-button button {
+    height: 50px;
+    width: 10rem;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 0;
+    cursor: pointer;
+    font-family: sans-serif;
+    background-color: rgb(249, 213, 8);
+    color: rgb(0, 94, 255);
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  
+   
+}
+.container-login-inpute span {
+    color: red;
+}

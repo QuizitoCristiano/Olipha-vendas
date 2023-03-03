@@ -1,0 +1,269 @@
+.cardes {
+    width: 100%;
+    height: auto;
+    background-color: rgb(220, 216, 210);
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    
+    flex-direction: column;
+    
+}
+.cardes .my-carde-service {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    transition: 0.5s;
+}
+
+.cardes .cardes-servicos {
+   
+    width: 100%;
+    
+    justify-content: center;
+   
+    align-items: center;
+    display: flex;
+    font-family: 'Inter',sans-serif;
+    font-weight: 800;
+    font-size: 1.75rem;
+    line-height: 1.2;
+    letter-spacing: -.019em;
+    color: #093366;
+}
+.div-cardes-img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 30px;
+    
+
+}
+.section-img {
+    font-family: sans-serif;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    font-family: 20px;
+   
+    
+}
+.div-text h3 {
+    display: block;
+    font-family: 'Inter',sans-serif;
+    font-weight: 800;
+    font-size: 1.75rem;
+    line-height: 1.2;
+    letter-spacing: -.019em;
+    color: black;
+}
+.div-text  {
+    border-top: 2px solid black; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+   
+}
+
+.botao-agente{
+    height: 50px;
+    width: 10rem;
+    font-weight: 500;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 0;
+    font-family: sans-serif;
+    background-color: rgb(37, 37, 35);
+    color: white;
+    transition: 0.5s;
+    margin-top: 10px;
+    
+}
+.botao-agente:hover {
+    width: 12rem;
+    background-color: rgb(249, 213, 8);
+    color: rgb(0, 94, 255);
+    letter-spacing: 5px;
+}
+
+
+
+ @media screen and (max-width: 759px){
+.bloco-home{
+    margin: 10px 0px;
+}
+} 
+.bloco-home {
+    width: 250px;
+    margin: 10px 10px;
+    text-align: center;
+    background: #fff;
+    border-radius: 6px;
+    height: auto;
+}
+.bloco-home-text h2{
+    font-family: 'Inter',sans-serif;
+    font-weight: 800;
+    font-size: 1.75rem;
+    line-height: 1.2;
+    letter-spacing: -.019em;
+    color: #093366;
+}
+.div-wrapper-cardes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 206, 24);
+    height: 50rem;
+    width: 100%;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+/* .div-wrapper-cardes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 206, 24);
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+} */
+.bloco-home-img .icom 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+   
+    /* background-color: #0E0325; */
+    
+}
+.bloco-home-img {
+    display: inline-block;
+    border-radius: 50%;
+    padding: 25px;
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.bloco-home-img:hover {
+    cursor: pointer;
+    padding: 30px;
+    width: 130px;
+   
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 900px) {
+
+    .cardes {
+        width: 100%;
+        height: auto;
+        background-color: rgb(220, 216, 210);
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .div-cardes-img {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+       
+       padding: 10px;
+        gap: 10px;
+        
+
+    }
+    .div-wrapper-cardes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(238, 206, 24);
+        height: 105rem;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .bloco-home {
+        width: 80%;
+        margin: 10px 10px;
+        text-align: center;
+        background: #fff;
+        border-radius: 6px;
+        height: auto;
+       
+    }
+  }
+
+
+  .bloco-home .bloco-home-img {
+    display: inline-block;
+    border-radius: 50%;
+    padding: 25px;
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+
+.bloco-home .bloco-home-img::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    /* background: rgba(0,96,135,0.2); */
+    opacity: 0;
+}
+*, *::after, *::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bloco-home .bloco-home-img:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border-right: 10px solid rgba(255,204,41,0.1);
+    border-left: 10px solid rgba(255,204,41,0.1);
+    background: none;
+    -webkit-transition: .3s ease-out;
+    transition: .3s ease-out;
+}
+/* . .elementor-element.elementor-element-9dc889e > .elementor-shape-bottom svg */
+

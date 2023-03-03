@@ -1,0 +1,56 @@
+
+.div-main-carousel {
+    background-color: rgb(223, 219, 219);
+    width: 20rem;
+    height: 21rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item-h3 {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item-h3:hover {
+  cursor:pointer;
+  color: red;
+  transition: 0.5s;
+}
+
+.div-novo-carousel {
+    height: 20rem;
+    width:100%;
+    align-self: center;
+    flex-direction: column;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.div-novo-carousel img {
+    width: 55%;
+    height: 55%;
+    border-radius: 50%;
+ 
+   
+}
+.div-novo-carousel img:hover {
+    
+   cursor: pointer;
+    transition: 0.5s;
+    border:2px solid red;
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .div-novo-carosel-img {
+        height: 100%;
+        width: 100%;
+    }
+  }

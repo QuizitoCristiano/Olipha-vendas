@@ -1,0 +1,152 @@
+.container-input {
+    background-color: #093366;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 30px;
+    transition: 0.5s;
+    
+}
+
+.container-input input {
+    height: 55px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 12pt;
+    border: 0;
+    overflow: 0;
+}
+.div-wrapper-text {
+    display: flex;
+    flex-direction: column;
+    height: 6.5rem;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+    transition: 0.5s;
+    position: relative;
+}
+.div-wrapper-text p {
+    color: red;
+    width: 100%;
+    font-weight: 800;
+    transition: 0.5s;
+    position: absolute;
+    top: 65px;
+}
+.div-password-senha {
+    display: flex;
+    flex-direction: column;
+    height: 6rem;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+    transition: 0.5s;
+    position: relative;
+    
+}
+.div-password-senha p {
+    color: red;
+    width: 100%;
+    font-weight: 800;
+    transition: 0.5s;
+    position: absolute;
+    
+    top: 65px;
+  
+}
+.div-password-senha input {
+    
+    width:100%;
+    border: none;
+    outline: none;
+}
+.div-password-senha span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+   
+    
+}
+.div-password-input {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 2px solid rgb(76, 69, 69);
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+.container-input .dit-text-h2 h2 {
+    font-family: 'Inter',sans-serif;
+    font-weight: 800;
+    font-size: 2.75rem;
+    line-height: 1.2;
+    letter-spacing: -.019em;
+    color: rgb(0, 94, 255);
+   
+}
+.dit-text-h2 {
+ 
+}
+.div-button-botao {
+    height:100px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.div-button-botao button {
+    position: relative;
+    height: 60px;
+    width: 30%;
+    font-weight: 800;
+     font-size: 20px;
+     border: none;
+     outline: none;
+     border-radius: 0;
+     font-family: sans-serif;
+     background-color: rgb(249, 213, 8);
+     color: rgb(0, 94, 255);
+     transition: 0.5s;
+}
+
+
+
+
+@media (max-width: 900px) {
+    .div-button-botao button{
+        height: 60px;
+        width: 100%;
+    }
+    .container-input .dit-text-h2 h2 {
+        font-family: 'Inter',sans-serif;
+        font-weight: 800;
+        font-size: 1.75rem;
+        line-height: 1.2;
+        letter-spacing: -.019em;
+        color: rgb(0, 94, 255);
+       
+    }
+}

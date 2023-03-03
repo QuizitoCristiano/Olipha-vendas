@@ -1,0 +1,27 @@
+
+.div-carosel-img {
+    
+    height: 10%;
+    width: 100%;
+    
+}
+.div-images-carousel {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+strong {
+    font-weight: 800;
+    font-size: 20px;
+    color: rgb(10, 224, 17);
+}
+@media screen and (max-width: 1000px) {
+    .div-carosel-img {
+        height: 100%;
+        width: 100%;
+        
+    } 
+  }

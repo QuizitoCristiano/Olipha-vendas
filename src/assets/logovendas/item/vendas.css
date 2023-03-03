@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5ms;
+}
+
+.div-container-vendas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    position: absolute;
+    flex-direction: column;
+    top: 2;
+    left: 0;
+    transition: 0.5ms;
+    width: 100%;
+    padding: 5px;
+    /* background-color: #aaacb0a2; */
+    background-color: #093366;
+    gap:30px;
+
+    padding: 30px;
+    transition: 0.6s;
+    opacity: 0;
+    animation-name: animatvendas;
+    animation-fill-mode: forwards;
+    animation-duration: 0.5s;
+    transform: translateX(-50%);
+}
+@keyframes animatvendas {
+    to {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+}
+
+.wrapper-vendas {
+    /* background-color: pink; */
+    transition: 1ms;
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.containe-marcas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    background-color: rgb(249, 213, 8);
+    border-bottom: 2px solid #093366;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.containe-marcas h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 2.75rem;
+    line-height: 1.2;
+    letter-spacing: -.019em;
+    color: #093366;
+    border-bottom: 2px solid #093366;
+
+    /* color: rgb(249, 213, 8); */
+
+}
+
+.container-loja {
+    height: 75%;
+    width: 100%;
+    /* background: #0f2d25; */
+    background: rgb(67,150,146);
+    background: linear-gradient(90deg, rgba(67,150,146,1) 0%, rgba(148,194,232,0.8679525222551929) 100%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.logo-loja-text {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* border: 2px solid red; */
+    padding-left: 30px;
+    gap: 30px;
+    transition: 1s;
+    
+}
+.logo-loja-text h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 2.75rem;
+    line-height: 1.2;
+    letter-spacing: -.019em;
+    color: rgb(249, 213, 8);
+   
+}
+.logo-loja-text h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 15pt;
+    line-height: 1.2;
+    letter-spacing: -.019em;
+    color: #093366;
+    text-align: start;
+
+}
+
+.logo-loja-text p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 1.1rem;
+    line-height: 1.2;
+    letter-spacing: -.019em;
+    color: black;
+    text-align: start;
+    
+}
+
+.logo-loja-img {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid goldenrod; */
+}
+.logo-loja-img img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.botao-marca-loja{
+    height: 50px;
+    width: 10rem;
+    font-weight: 00;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 0;
+    font-family: sans-serif;
+    background-color: rgb(249, 213, 8);
+    color: rgb(0, 94, 255);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.botao-marca-loja:hover {
+    font-weight: 500;
+    font-size: 1.5rem;
+    width: 12rem;
+    letter-spacing:2px;
+    color: rgb(0, 94, 255);
+    
+}
+
+
+/* .logo-loja {
+    height: 20rem;
+    width: 100%;
+   
+    background: rgb(67,150,146);
+    background: linear-gradient(90deg, rgba(67,150,146,1) 0%, rgba(148,194,232,0.8679525222551929) 100%);
+} */
+
+.carousel {
+    height: 31rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: gold;
+   
+}
+.environment-vendas {
+    height: 25rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(100, 96, 96);
+
+}
+.itensmodelos-vendas {
+    height: auto;
+    transition: 0.5s;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(108, 98, 38);  
+}
+.item-vendas-footer {
+    
+    height: 32rem;
+    width: 100%;
+    position: relative;
+    
+    
+}
+.carousel img {
+    width: 54rem;
+ 
+}
+.inner-carousel {
+    cursor: grab;
+    overflow: hidden;
+}
+
+
+.inner-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 80%;
+    width: 100%;
+    padding: 14px;
+    background-color: #a1abb8; 
+}
+
+.inner-carousel img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    pointer-events: none;
+    background-color: aliceblue;
+}
+
+
+/* .carousel {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.carousel .inner-carousel {
+     display: flex;   
+}
+.carousel .inner-carousel  .item{
+    min-height: 200px;
+    min-width: 400px;
+    padding: 15px;
+}
+.carousel .inner-carousel  .item{
+    min-height: 100%;
+    min-width: 90%;
+   border-radius: 15px;
+   pointer-events: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .div-container-vendas {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        position: absolute;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        transition: 0.5ms;
+        width: 100%;
+        padding: 5px;
+        background-color: #093366;
+        gap:20px;
+    }
+    .item-vendas-footer {
+        
+        height: 63rem;
+        width: 100%;
+       /* position: absolute;
+       bottom: 0;
+       left: 0;
+       right: 0; */
+        
+        
+    }
+    .logo-loja-text h2 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+        font-size: 1.5rem;
+        line-height: 1.2;
+        letter-spacing: -.019em;
+        color: rgb(249, 213, 8);
+       
+    }
+    .wrapper-vendas {
+        /* background-color: pink; */
+        transition: 1ms;
+        width: 100%;
+        height: 60rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+    .container-loja {
+        height: auto;
+        width: 100%;
+        /* background: #0f2d25; */
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+    
+    }
+    .logo-loja-text {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+      
+        padding-left: 30px;
+        gap: 30px;
+        transition: 1s;
+    }
+    .logo-loja-text h2 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 2.1rem;
+        line-height: 1.2;
+        letter-spacing: -.019em;
+        color: rgb(249, 213, 8);
+       
+    }
+    .logo-loja-text h3 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+        font-size: 15pt;
+        line-height: 1;
+        letter-spacing: -.019em;
+        color: #093366;
+        text-align: start;
+    
+    }
+    
+    .logo-loja-text p{
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 1.1rem;
+        line-height: 1.2;
+        letter-spacing: -.019em;
+        color: black;
+        text-align: start;
+        
+    }
+
+    .logo-loja-img {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     
+    }
+    .logo-loja-img img {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .carousel img {
+        width: 100%;
+        height: 100%;
+      
+    }
+  }
